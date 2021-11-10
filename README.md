@@ -1,6 +1,6 @@
 # Python Brainfuck Interpreter
 Brainfuck interpreter written in Python
-* To run, enter:
+### To run, enter:
 ## Windows
 * python interpreter.py {name of file containing brainfuck}.{file ending}
 ## Linux/MacOS

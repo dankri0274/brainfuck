@@ -51,7 +51,7 @@ if __name__ == "__main__":
 		elif codeList[HEAD] == ".":
 			print(chr(MEMORY[POINTER]), end = "")
 		elif codeList[HEAD] == ",":
-			MEMORY[POINTER] = ord(sys.stdin.buffer.read(1))
+			MEMORY[POINTER] = ord(input()[0])
 		elif codeList[HEAD] == ">":
 			POINTER += 1
 			if POINTER > MEMORY_SIZE:
